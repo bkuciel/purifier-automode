@@ -56,7 +56,6 @@ while True:
 	elif (aqi > 10):
 		print ("Power: 2")
 		MiAir.set_favorite_level(2)
-		dif = aqi + 4
 		
 	elif (aqi > 5):
 		print ("Power: 2")
